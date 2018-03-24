@@ -4,3 +4,5 @@ From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-d
 
 
 Skills learned once completed:
+
+-reflect at end of project.
