@@ -1,0 +1,102 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* navigation */
+
+#nav-container {
+  /* gave the nav some margin on the top */
+  margin: 15px 0 0 0;
+
+}
+.nav-links {
+ /* gave the nav-links margin top and bottom 7px and left and right 0px */
+  margin: 7px 0;
+  /*gave padding left to the nav links*/
+  padding-left: 15px;
+  /* made it so the nav links were inline block */
+  display: inline-block;
+
+}
+a.about {
+  /* gave the link with the class about margin to the left */
+  margin-left: 10px;
+}
+#right-nav-container {
+  /* made the right nav float */
+  float: right;
+}
+#text-links-container {
+/* made the links group an inline block so there wouldn't be an added line br
+to move following content on next line. */
+  display: inline-block;
+  /* gave margin to the links-group */
+  margin: 1px 15px 0 27px;
+}
+.nav-links-r {
+  /*made the nav-links-r inline block so it would line up with the links group */
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+img {
+  background: blue;
+  /*floated img to the right so the spacing would allow it to fit it all on the same line. */
+  float: right;
+}
+#notification {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#profile-pic {
+  margin-right: 30px;
+  border-radius: 100%;
+}
