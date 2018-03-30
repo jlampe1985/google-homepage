@@ -47,22 +47,23 @@ table {
 	border-spacing: 0;
 }
 
-
 /* navigation */
-
+.nav-links {
+	/* made it so the nav links were inline block*/
+	display: inline-block;
+	font-family: Arial;
+	font-size: 13px;
+	text-decoration: none;
+}
 #nav-container {
   /* gave the nav some margin on the top */
   margin: 15px 0 0 0;
-
 }
-.nav-links {
+.nav-links-l {
  /* gave the nav-links margin top and bottom 7px and left and right 0px */
   margin: 7px 0;
   /*gave padding left to the nav links*/
   padding-left: 15px;
-  /* made it so the nav links were inline block */
-  display: inline-block;
-
 }
 a.about {
   /* gave the link with the class about margin to the left */
@@ -80,25 +81,18 @@ to move following content on next line. */
   margin: 1px 15px 0 27px;
 }
 .nav-links-r {
-  /*made the nav-links-r inline block so it would line up with the links group */
-  display: inline-block;
-  padding-left: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+	padding: 5px 0 5px 15px;
 }
 
-img {
+.profile-pic, .notification, .apps {
   background: blue;
   /*floated img to the right so the spacing would allow it to fit it all on the same line. */
   float: right;
 }
-#notification {
-  margin-right: 15px;
-  margin-left: 15px;
+.notification {
+	margin: 0 15px;
 }
-#profile-pic {
+.profile-pic {
   margin-right: 30px;
   border-radius: 100%;
 }
-
-/* need to finish refactoring css for short hand styles */
