@@ -152,3 +152,20 @@ height: 140px;
 	and the im feeling lucky button follows in the normal flow */
 	margin-left: 515px;
 }
+
+/*footer*/
+#footer {
+	height: 40px;
+	width: 100%;
+	border: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	position: absolute;
+	bottom: 0;
+}
+
+.footer-nav-links {
+	margin: 12px;
+}
+.footer-nav-links-r {
+	float: right;
+}
