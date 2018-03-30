@@ -96,3 +96,59 @@ to move following content on next line. */
   margin-right: 30px;
   border-radius: 100%;
 }
+
+/* Logo */
+
+#logo-container {
+	margin-top: 45px;
+}
+
+.logo {
+	/* made the logo a block element so margin could be applied */
+	display: block;
+	padding: 110px 0 10px 0;
+	margin: 10px auto;
+
+}
+
+/*form*/
+#form-container {
+height: 140px;
+
+}
+.search-font {
+	font-family: Arial;
+	font-size: 16px;
+}
+.search {
+	/* pushes the search bar from the left */
+	margin-left: 355px;
+	height: 40px;
+	width: 510px;
+	/* puts padding inside the search bar */
+	padding: 0 54px 0 14px;
+}
+
+.voice-control {
+	/* positions the voice control img to corect location */
+	position: relative;
+	top: 15px;
+	right: 40px;
+	background-color: blue;
+}
+
+.button {
+	border: 1px solid #e4e4e4;
+	color: #757575;
+	/* pushes button down from the top */
+	margin-top: 30px;
+	background-color: #f2f2f2;
+	/*give the buttons padding all around for the text inside */
+	padding: 10px;
+}
+
+.search-button {
+	/* pushes the search button over from the left
+	and the im feeling lucky button follows in the normal flow */
+	margin-left: 515px;
+}
